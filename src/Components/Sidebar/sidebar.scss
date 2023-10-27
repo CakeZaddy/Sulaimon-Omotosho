@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: white;
   color: black;
+  z-index: 100;
 
   .bg {
     position: fixed;
@@ -38,5 +39,8 @@
     left: 25px;
     background: transparent;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

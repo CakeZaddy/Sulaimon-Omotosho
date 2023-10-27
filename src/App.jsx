@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './app.scss'
 import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/hero'
 
 function App() {
   return (
     <>
       <section className='' id='Homepage'>
         <Navbar />
+        <Hero />
       </section>
       <section className='' id='Services'>
         Parallax
