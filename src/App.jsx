@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './app.scss'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/hero'
+import Parallax from './Components/Parallax/Parallax'
 
 function App() {
   return (
@@ -11,11 +12,11 @@ function App() {
         <Hero />
       </section>
       <section className='' id='Services'>
-        Parallax
+        <Parallax type='services' />
       </section>
       <section className=''>Services</section>
       <section className='' id='Portfolio'>
-        Parallax
+        <Parallax type='portfolio' />
       </section>
       <section className=''>Portfolio1</section>
       <section className=''>Portfolio2</section>

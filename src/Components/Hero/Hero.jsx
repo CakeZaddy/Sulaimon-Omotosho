@@ -72,10 +72,10 @@ const Hero = () => {
         <p>FrontEnd Technical Writer Cake Decorator</p>
       </motion.div>
       <div className='imageContainer'>
-        <div className='image'>
-          <img src='/susuHero1.PNG' alt='' />
-          {/* <img src='/hero.png' alt='' /> */}
-        </div>
+        {/* <div className='image'> */}
+        <img src='/susuHero.png' alt='' />
+        {/* <img src='/hero.png' alt='' /> */}
+        {/* </div> */}
       </div>
     </div>
   )
