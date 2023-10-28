@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './app.scss'
 import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/hero'
+import Hero from './Components/Hero/Hero'
 import Parallax from './Components/Parallax/Parallax'
 
 function App() {
