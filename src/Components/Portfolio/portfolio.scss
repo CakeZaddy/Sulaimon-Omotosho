@@ -1,0 +1,19 @@
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    text-align: center;
+    color: orange;
+    font-size: 46px;
+    font-weight: bold;
+
+    .progressBar {
+      height: 15px;
+      background-color: white;
+    }
+  }
+}
