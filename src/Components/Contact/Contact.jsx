@@ -53,8 +53,8 @@ const Contact = () => {
         >
           <svg
             fill='transparent'
-            height='500px'
-            width='500px'
+            // height='500px'
+            // width='500px'
             version='1.1'
             id='Layer_1'
             xmlns='http://www.w3.org/2000/svg'
