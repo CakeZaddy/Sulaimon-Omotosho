@@ -5,6 +5,7 @@ import Hero from './Components/Hero/Hero'
 import Parallax from './Components/Parallax/Parallax'
 import Services from './Components/Services/Services'
 import Portfolio from './Components/Portfolio/Portfolio'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </section>
       <Portfolio />
       <section className='' id='Contact'>
-        Contact
+        <Contact />
       </section>
     </>
   )
