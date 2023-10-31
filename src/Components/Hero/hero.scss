@@ -6,6 +6,10 @@
   overflow: hidden;
   position: relative;
 
+  @include tablet {
+    height: calc(100vh - 30px);
+  }
+
   .wrapper {
     max-width: 1366px;
     height: 100%;
@@ -28,10 +32,22 @@
       text-align: center;
     }
 
+    @include tablet {
+      width: 100%;
+      height: 50%;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+    }
+
     h2 {
       color: rebeccapurple;
       font-size: 30px;
       letter-spacing: 10px;
+
+      @include tablet {
+        font-size: 50px;
+      }
     }
 
     h1 {
@@ -39,6 +55,10 @@
 
       @include mobile {
         font-size: 36px;
+      }
+
+      @include tablet {
+        font-size: 50px;
       }
     }
 
@@ -51,6 +71,10 @@
         color: white;
         margin-right: 20px;
         font-weight: 300;
+
+        @include tablet {
+          font-size: 36px;
+        }
       }
     }
 
@@ -68,6 +92,13 @@
 
     @include mobile {
       height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    @include tablet {
+      height: 55%;
       width: 100%;
       top: unset;
       bottom: 0;
