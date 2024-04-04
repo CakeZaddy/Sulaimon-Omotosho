@@ -7,25 +7,29 @@ const items = [
     id: 1,
     title: 'React Web App',
     img: 'https://images.pexels.com/photos/14386546/pexels-photo-14386546.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus provident voluptatum veniam excepturi!',
+    desc: 'Crafted by me, this web food app offers a seamless dining experience. From concept to execution, I meticulously designed and developed every aspect to ensure smooth navigation, effortless ordering, and delightful dining.',
+    slug: 'https://buy-food.vercel.app/',
   },
   {
     id: 2,
     title: 'Next.js Blog',
     img: 'https://images.pexels.com/photos/11001424/pexels-photo-11001424.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus provident voluptatum veniam excepturi!',
+    desc: 'Presenting this sleek blog site, meticulously crafted by me. From design to development, I ensured that every detail fosters an immersive reading experience. Dive in and discover the power of storytelling on this platform.',
+    slug: 'https://kleen-kodah-xaeh.vercel.app/',
   },
   {
     id: 3,
     title: 'Portfolio Page',
     img: 'https://images.pexels.com/photos/3545778/pexels-photo-3545778.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus provident voluptatum veniam excepturi!',
+    desc: 'Step into the spotlight with the portfolio page I handcrafted for a client. Every element, meticulously designed and executed, highlights their unique talents and accomplishments. Dive in and experience the magic of their story unfolding',
+    slug: 'https://layo.vercel.app/',
   },
   {
     id: 4,
     title: '3D Web Page',
     img: 'https://images.pexels.com/photos/14386546/pexels-photo-14386546.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-    desc: '   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus provident voluptatum veniam excepturi!',
+    desc: 'Enter the immersive realm of this 3D web page, meticulously sculpted to captivate and engage. Every detail, painstakingly crafted, invites users to explore a world where creativity knows no bounds. Step into the future of web design and experience the extraordinary.',
+    slug: 'https://3d-portfolio-eight-sigma.vercel.app/',
   },
 ]
 

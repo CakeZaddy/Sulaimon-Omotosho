@@ -36,7 +36,12 @@ section {
   }
 }
 @mixin desktop {
-  @media (min-width: 1024px) {
+  @media (min-width: 1024px) and (max-width: 1360px) {
+    @content;
+  }
+}
+@mixin desktopXL {
+  @media (max-width: 1361px) {
     @content;
   }
 }

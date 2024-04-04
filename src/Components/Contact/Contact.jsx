@@ -35,10 +35,10 @@ const Contact = () => {
           <h2>Mail</h2>
           <span>susudef2u@gmail.com</span>
         </motion.div>
-        <motion.div variants={variants} className='item'>
+        {/* <motion.div variants={variants} className='item'>
           <h2>Address</h2>
           <span>That street, Lagos. Nigeria</span>
-        </motion.div>
+        </motion.div> */}
         <motion.div variants={variants} className='item'>
           <h2>Phone</h2>
           <span>+234 903 519 8024</span>

@@ -39,12 +39,12 @@ const Services = () => {
         animate={isInView && 'animate'}
         ref={ref}
       >
-        <motion.div className='textContainer' variants={variants}>
+        {/* <motion.div className='textContainer' variants={variants}>
           <p>
             I make beautiful web pages <br /> and give great UI
           </p>
           <hr />
-        </motion.div>
+        </motion.div> */}
         <motion.div className='titleContainer' variants={variants}>
           <div className='title'>
             <img src='/people.webp' alt='' />
@@ -67,53 +67,64 @@ const Services = () => {
             className='box'
             whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
           >
-            <h2>Brand Type</h2>
+            <h2>HTML CSS</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, fuga
-              odio quasi similique molestiae iste voluptate voluptatem deleniti
-              nulla, incidunt facilis ullam aliquam itaque facere adipisci vel
-              molestias ad error
+              I use HTML and CSS to create visually appealing and functional
+              websites. I structure web pages with HTML and style them with CSS
+              to ensure consistency and responsiveness across devices. I easily
+              collaborate with UI/UX designers and backend developers to deliver
+              user-friendly interfaces and optimize website performance.
             </p>
-            <button>Contact Me</button>
+            <button>
+              <a href='#Contact'>Contact Me</a>
+            </button>
           </motion.div>
           <motion.div
             className='box'
             whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
           >
-            <h2>Brand Type</h2>
+            <h2>JavaScript</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, fuga
-              odio quasi similique molestiae iste voluptate voluptatem deleniti
-              nulla, incidunt facilis ullam aliquam itaque facere adipisci vel
-              molestias ad error
+              As a frontend web developer fluent in JavaScript, I focus on
+              creating interactive and dynamic website elements. I enhance user
+              experience by implementing features like forms, animations, and
+              other content updates. My knowledge of JavaScript makes me build
+              good functional sites.
             </p>
-            <button>Contact Me</button>
+            <button>
+              <a href='#Contact'>Contact Me</a>
+            </button>
           </motion.div>
           <motion.div
             className='box'
             whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
           >
-            <h2>Brand Type</h2>
+            <h2>Tailwind</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, fuga
-              odio quasi similique molestiae iste voluptate voluptatem deleniti
-              nulla, incidunt facilis ullam aliquam itaque facere adipisci vel
-              molestias ad error
+              Tailwind CSS is a product I leverage its utility-first approach to
+              efficiently style web components. I use it to customize designs
+              and optimize responsiveness, and ensuring consistency across
+              projects.
             </p>
-            <button>Contact Me</button>
+            <button>
+              <a href='#Contact'>Contact Me </a>{' '}
+            </button>
           </motion.div>
           <motion.div
             className='box'
             whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
           >
-            <h2>Brand Type</h2>
+            <h2>ReactJs </h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, fuga
-              odio quasi similique molestiae iste voluptate voluptatem deleniti
-              nulla, incidunt facilis ullam aliquam itaque facere adipisci vel
-              molestias ad error
+              Using React/NextJs I specialize in building dynamic user
+              interfaces and handling backend projects. managing state
+              efficiently, and collaborating seamlessly with backend developers.
+              I easily work closely with backend teams to deliver robust and
+              scalable web solutions
             </p>
-            <button>Contact Me</button>
+            <button>
+              <a href='#Contact'>Contact Me</a>
+            </button>
           </motion.div>
         </motion.div>
       </motion.div>

@@ -22,12 +22,14 @@
         align-self: center;
         text-align: center;
         flex-direction: column;
+        gap: 5px;
       }
 
       @include tablet {
         align-self: center;
         text-align: center;
         flex-direction: column;
+        gap: 5px;
       }
 
       p {
@@ -38,10 +40,14 @@
 
         @include mobile {
           text-align: center;
+
+          font-size: 15px;
         }
 
         @include tablet {
           text-align: center;
+
+          font-size: 15px;
         }
       }
 
@@ -49,6 +55,7 @@
         width: 500px;
         border: none;
         border-top: 0.5px solid gray;
+        margin-bottom: 5px;
 
         @include mobile {
           width: 300px;
@@ -81,13 +88,13 @@
         @include mobile {
           text-align: center;
           flex-direction: column;
-          gap: 20px;
+          gap: 5px;
         }
 
         @include tablet {
           text-align: center;
           flex-direction: column;
-          gap: 20px;
+          gap: 10px;
         }
 
         img {
@@ -126,6 +133,7 @@
           background-color: orange;
           border: none;
           font-size: 24px;
+          margin-bottom: 10px;
 
           @include mobile {
             width: 150px;
@@ -157,12 +165,16 @@
         border: 0.5px solid gray;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 10px;
 
         @include mobile {
           border: none;
           align-items: center;
-          gap: 20px;
+          // gap: 20px;
+          padding: 5px;
+        }
+        @include tablet {
           padding: 10px;
         }
 
